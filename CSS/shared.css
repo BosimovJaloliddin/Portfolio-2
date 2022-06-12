@@ -1,0 +1,38 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+.main-banner{
+    width: 100%;
+    z-index: 1;
+    height: 43rem;
+    background: url(https://preview.colorlib.com/theme/ronin/img/banner/xhome-banner.jpg.pagespeed.ic.m1C2ct8E1B.jpg) no-repeat scroll center center;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo img{
+    margin-top:1rem;
+    padding-left: 2rem;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-items{
+    display: inline;
+}
+.navigation-item{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    padding-right: 1.5rem;
+}
+.navigation-item a{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
