@@ -299,3 +299,41 @@
 .tests-item i{
     color: rgb(255,192,0);
 }
+
+/* Blog style */
+.blog{
+    margin-top: 8rem;
+}
+.blog-items{
+    display: flex;
+    margin-top: 4rem;
+}
+.blog-item{
+    width: 33%;
+    margin-left: 1.5rem;
+}
+.blog-item img{
+    vertical-align: middle;
+    margin-bottom: 2rem;
+}
+.blog-item a{
+    text-decoration: none;
+    color: #777;
+    font-size: 1rem;
+}
+.blog-item h3{
+    font-size: 1.4rem;
+    color: #222;
+    margin-bottom: 2.5rem;
+    transition: all 300ms linear 0s;
+    font-weight: bold;
+    cursor: pointer;
+}
+.blog-item p{
+    line-height: 22px;
+    color: #777;
+    font-weight: normal;
+}
+.blog-item h3:hover{
+    color: #8490ff;
+}
