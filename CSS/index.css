@@ -268,3 +268,34 @@
 .project-item:hover h4{
     color: #007bff;
 }
+
+/* Tests style */
+.tests-banner{
+    background:rgb(249,249,255) ;
+}
+.tests{
+    margin-top: 8rem;
+    padding: 6rem 1rem;
+}
+.tests-items{
+    display: flex;
+    margin-top: 5rem;
+}
+.tests-item{
+    width: 33%;
+    padding: 2.5rem 2rem;
+    background: #fff;
+    margin-left: 2rem;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+.tests-item p{
+    color: #777;
+    font-style: italic;
+    line-height: 26px;
+    font-weight: normal;
+    font-size: 1rem;
+}
+.tests-item i{
+    color: rgb(255,192,0);
+}
