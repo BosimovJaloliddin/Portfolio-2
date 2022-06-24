@@ -1,5 +1,10 @@
 /* Main section */
+.main-banner{
+    width: 100%;
+    background: rgb(246, 241, 241) ;
+}
 .main-section{
+    position: relative;
     display: flex;
     justify-content: space-around;
 }
@@ -232,19 +237,21 @@
 .project-items{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .project-items>div{
     width: 30%;
 }
 .project-item{
     position: relative;
-    margin-left:2.3rem;
     margin-bottom: 1.5rem;
+    margin-left: 2rem;
     box-sizing: border-box;
     width: 100%;
 }
 .project-item img{
     transition: all 300ms ease;
+    width: 100%;
 }
 .project-information{
     position: absolute;
@@ -308,11 +315,12 @@
     display: flex;
     margin-top: 4rem;
 }
-.blog-item{
+.blog-items>div{
     width: 33%;
     margin-left: 1.5rem;
 }
 .blog-item img{
+    width: 100%;
     vertical-align: middle;
     margin-bottom: 2rem;
 }
@@ -336,4 +344,38 @@
 }
 .blog-item h3:hover{
     color: #8490ff;
+}
+
+@media only screen and (max-width:991px){
+    /* Main-section style */
+    .main-section{
+        flex-direction: column;
+    }
+    .main-section>div{
+        padding: 3rem 1rem;
+        margin-left: 6rem;
+    }
+
+    /* About-me style */
+    .about-me{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-me>div{
+        margin-bottom: 4rem;
+        width: 70%;
+    }
+
+    /* Clients style */
+    .clients-banner{
+        height: 1400px;
+    }
+    .clients-items{
+        flex-wrap: wrap;
+        padding: 3rem 8rem;
+        justify-content: cen;
+    }
+    .clients-items>div{
+        width: 40%;
+    }
 }
