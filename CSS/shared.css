@@ -1,3 +1,4 @@
+/* Basic section */
 body{
     font-family: 'Open Sans',sans-serif;
     margin: 0;
@@ -109,8 +110,31 @@ body{
 }
 
 @media only screen and (max-width:991px){
+
+    /* Basic section */
+    .section-subtitle{
+        font-size: 2rem;
+    }
+    .section-title{
+        font-size: .7rem;
+    }
+
     /* Header style */
     .navigation-items{
         display: none;
+    }
+
+    /* Footer style */
+    .footer-items{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .footer-items>div{
+        width: 45%;
+        padding: 0 5rem;
+        box-sizing: border-box;
+    }
+    .footer-item__1{
+        margin-top: 5.5rem;
     }
 }
